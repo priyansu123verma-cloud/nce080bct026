@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven - Freshly Brewed Happiness</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <!-- Logo -->
+            <div class="logo">
+                <i class="fas fa-mug-hot"></i>
+                <span>Brew Haven</span>
+            </div>
+
+            <!-- Navigation Menu -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Mobile Menu Toggle -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Freshly Brewed Happiness</h1>
+            <p class="hero-subtitle">Crafted with love, served with passion</p>
+            <button class="btn btn-primary" onclick="document.getElementById('menu').scrollIntoView({behavior: 'smooth'})">Order Now</button>
+        </div>
+    </section>
+
+    <!-- ==================== MENU SECTION ==================== -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-subtitle">Discover our signature coffee selections</p>
+
+            <div class="menu-grid">
+                <!-- Espresso Card -->
+                <article class="menu-card">
+                    <div class="card-image">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Espresso</h3>
+                    <p class="card-description">Rich and bold coffee shot, perfect for a quick energy boost.</p>
+                    <p class="card-price">$2.50</p>
+                </article>
+
+                <!-- Cappuccino Card -->
+                <article class="menu-card">
+                    <div class="card-image">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Cappuccino</h3>
+                    <p class="card-description">Smooth blend of espresso, steamed milk, and velvety foam.</p>
+                    <p class="card-price">$4.00</p>
+                </article>
+
+                <!-- Latte Card -->
+                <article class="menu-card">
+                    <div class="card-image">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Latte</h3>
+                    <p class="card-description">Creamy espresso with steamed milk for a smooth, comforting taste.</p>
+                    <p class="card-price">$4.50</p>
+                </article>
+
+                <!-- Mocha Card -->
+                <article class="menu-card">
+                    <div class="card-image">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Mocha</h3>
+                    <p class="card-description">Indulgent blend of espresso, chocolate, and steamed milk.</p>
+                    <p class="card-price">$5.00</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <!-- About Content -->
+                <div class="about-content">
+                    <h2 class="section-title">About Brew Haven</h2>
+                    <p>
+                        Welcome to Brew Haven, where coffee isn't just a beverage—it's a passion. Founded in 2015, 
+                        our coffee shop has been a beloved destination for coffee enthusiasts and casual visitors alike.
+                    </p>
+                    <p>
+                        We source our beans from sustainable farms around the world, ensuring that every cup tells a story 
+                        of quality, care, and craftsmanship. Our skilled baristas are trained to perfection, bringing out the 
+                        best flavors in every brew.
+                    </p>
+                    <p>
+                        At Brew Haven, we believe in creating a warm, welcoming space where connections are made over exceptional coffee. 
+                        Whether you're studying, meeting friends, or simply seeking a moment of peace, our cozy ambiance is the perfect backdrop.
+                    </p>
+                    <p><strong>Join us today and experience the art of coffee brewing!</strong></p>
+                </div>
+
+                <!-- About Image -->
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-coffee"></i>
+                        <p>Coffee Brewing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== GALLERY SECTION ==================== -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <p class="section-subtitle">Moments captured at Brew Haven</p>
+
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <article class="gallery-item">
+                    <div class="gallery-image-wrapper">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>Latte Art</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Gallery Item 2 -->
+                <article class="gallery-item">
+                    <div class="gallery-image-wrapper">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>Morning Brew</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Gallery Item 3 -->
+                <article class="gallery-item">
+                    <div class="gallery-image-wrapper">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>Cafe Ambiance</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Gallery Item 4 -->
+                <article class="gallery-item">
+                    <div class="gallery-image-wrapper">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>Fresh Pastries</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Gallery Item 5 -->
+                <article class="gallery-item">
+                    <div class="gallery-image-wrapper">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>Bean Selection</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Gallery Item 6 -->
+                <article class="gallery-item">
+                    <div class="gallery-image-wrapper">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>Espresso Shot</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">We'd love to hear from you</p>
+
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                placeholder="Your Name"
+                                required
+                            >
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                placeholder="your@email.com"
+                                required
+                            >
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                placeholder="Your Message"
+                                rows="5"
+                                required
+                            ></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div class="form-message" id="formMessage"></div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Coffee Lane, Bean City, BC 12345</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Opening Hours</h4>
+                            <p>Monday - Friday: 7:00 AM - 9:00 PM</p>
+                            <p>Saturday - Sunday: 8:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@brewhaven.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Brew Haven. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
